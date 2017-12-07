@@ -8,8 +8,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		index.html = index.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{F61E81C5-3E24-40D2-93A1-5B0C9E1F34AA}"
+	ProjectSection(SolutionItems) = preProject
+		css\main.css = css\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{F8B66D36-E865-465F-8617-815F19E81AB1}"
+	ProjectSection(SolutionItems) = preProject
+		images\logo.png = images\logo.png
+		images\olly_man.png = images\olly_man.png
+		images\olly_man_lq.png = images\olly_man_lq.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D8A30DFE-AC6A-4EE0-B922-0B505708C6A8}"
+	ProjectSection(SolutionItems) = preProject
+		fonts\Forte_vr.ttf = fonts\Forte_vr.ttf
+		fonts\MAGNETOB.ttf = fonts\MAGNETOB.ttf
+		fonts\Supermolot-ThinItalic.ttf = fonts\Supermolot-ThinItalic.ttf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F61E81C5-3E24-40D2-93A1-5B0C9E1F34AA} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
+		{F8B66D36-E865-465F-8617-815F19E81AB1} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
+		{D8A30DFE-AC6A-4EE0-B922-0B505708C6A8} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 	EndGlobalSection
 EndGlobal
