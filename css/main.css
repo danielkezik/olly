@@ -1,16 +1,22 @@
-﻿@font-face {
-    font-family: "Forte_VR";
-    src: url(./fonts/Forte_vr.ttf) format("truetype");
+﻿:root {
+    --red-color: #c13a2c;
+    --blue-color: #2c3e50;
+}
+
+
+@font-face {
+    font-family: Forte_VR;
+    src: url(../fonts/Forte_vr.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "Magneto Bold";
-    src: url(./fonts/MAGNETOB.ttf) format("truetype");
+    font-family: 'Magneto Bold';
+    src: url(../fonts/MAGNETOB.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "Supermolot-ThinItalic";
-    src: url(./fonts/Supermolot-ThinItalic.ttf) format("truetype");
+    font-family: SupermolotThinItalic;
+    src: url(../fonts/SupermolotThinItalic.ttf) format("truetype");
 }
 
 body
@@ -18,10 +24,9 @@ body
     background-color: white;
 }
 
-body > .row
-{
-    margin-left:15px;
-    margin-right:15px;
+body > .row {
+   margin-left: 15px;
+   margin-right: 15px;
 }
 
 .main {
@@ -32,7 +37,7 @@ body > .row
 }
 
 .logos {
-    background-color: #c13a2c;
+    background-color: var(--red-color);
 }
 
 .logo {
@@ -53,8 +58,39 @@ body > .row
     top:8px;
 }
 
-div[class="*-button"] {
-    font-family: Forte_VR;
+.menu {
+    margin-top: 10px;
+}
+
+.menu-button {
+    font-family: SupermolotThinItalic;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: var(--red-color);
+    text-align: center;
+    margin-right:5px;
+    margin-left:5px;
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    padding-top: 5px;
+}
+
+@media(max-width: 767px) {
+    .menu-button {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+}
+
+.menu-button:hover, .active {
     color: white;
-    background-color: red;
+    background-color: var(--red-color);
+    cursor: pointer;
+}
+
+.active:hover {
+    cursor: default;
 }

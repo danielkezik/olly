@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D8A30DFE
 	ProjectSection(SolutionItems) = preProject
 		fonts\Forte_vr.ttf = fonts\Forte_vr.ttf
 		fonts\MAGNETOB.ttf = fonts\MAGNETOB.ttf
-		fonts\Supermolot-ThinItalic.ttf = fonts\Supermolot-ThinItalic.ttf
+		fonts\SupermolotThinItalic.ttf = fonts\SupermolotThinItalic.ttf
 	EndProjectSection
 EndProject
 Global
