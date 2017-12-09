@@ -88,9 +88,12 @@ body > .row {
 .menu-button:hover, .active {
     color: white;
     background-color: var(--red-color);
+}
+
+.menu-button:hover:not(.active) {
     cursor: pointer;
 }
 
-.active:hover {
-    cursor: default;
+.menu-button:active:not(.active) {
+    background-color: darkred;
 }
