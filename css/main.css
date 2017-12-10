@@ -92,7 +92,9 @@ body
 }
 
 .menu-button:active:not(.active) {
+    transition: background-color linear 0.3s, transform ease-out .2s;
     background-color: darkred;
+    transform: translateY(10px);
 }
 
 .main {
@@ -106,7 +108,7 @@ body
         background-color: var(--blue-color);
         height: 50px;
         position: absolute;
-        top: -20px;
+        top: -10px;
         width: 100%;
         transform: skewY(-0.8deg);
     }
