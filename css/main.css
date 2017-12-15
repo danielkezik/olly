@@ -118,14 +118,17 @@ body
     background-color: var(--blue-color);
     padding: 0 30px;
     border-radius: 0 0 20px 20px;
+    position:relative;
 }
 
 .main > .wrapper > .content {
+    width:100%;
     padding: 15px;
     background-color: white;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .main > .wrapper > .footer {
@@ -135,4 +138,20 @@ body
     border-radius: 10px;
     margin-left: -30px;
     margin-right: -30px;
+}
+
+.tile-wrapper {
+    margin: auto;
+}
+
+.tile {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px;
+    transition: background-color ease 1s;
+}
+
+.tile:hover{
+    background-color: red;
 }
