@@ -43,6 +43,7 @@ body
 
 .logo > img {
     height: 120px;
+    position: relative;
 }
 
 .olly_man {
@@ -53,6 +54,15 @@ body
     height: 120px;
     position: relative;
     top:8px;
+}
+
+@media(max-width: 767px) {
+    .olly_man > img {
+        left: -40px;
+    }
+    .logo > img {
+        left: -15px;
+    }
 }
 
 .menu {
