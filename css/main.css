@@ -82,7 +82,7 @@ body
     }
 }
 
-.menu-button:hover, .active {
+.menu-button:hover, .menu-button:active, .active {
     color: white;
     background-color: var(--red-color);
 }
@@ -149,9 +149,25 @@ body
     border: 1px solid black;
     padding: 10px;
     margin:10px;
-    transition: background-color ease 1s;
+    transition: background-color linear 2s;
 }
 
 .tile:hover{
     background-color: red;
+    transition: background-color ease .1s;
+}
+
+.footer {
+    font-family: SupermolotThinItalic;
+    font-size: 18px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer > .logo > img {
+    height: 80px;
+    margin-right: -20px;
 }
