@@ -34,6 +34,7 @@ body
 
 .logos {
     background-color: var(--red-color);
+    overflow:hidden;
 }
 
 .logo {
@@ -178,4 +179,18 @@ body
 .footer > .logo > img {
     height: 80px;
     margin-right: -20px;
+}
+
+.footer > .alt_menu {
+    text-align: right;
+}
+
+@media(max-width: 767px) {
+    .footer > .contacts {
+        text-align: center;
+    }
+    .footer > .alt_menu {
+        margin-top: 15px;
+        text-align: center;
+    }
 }
