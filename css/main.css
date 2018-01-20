@@ -34,11 +34,12 @@ body
 
 .logos {
     background-color: var(--red-color);
-    overflow:hidden;
+    
 }
 
 .logo {
-    text-align: center;
+    /**/text-align: center;
+    overflow:hidden;
 }
 
 .logo > img {
