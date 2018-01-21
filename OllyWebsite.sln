@@ -40,6 +40,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{220F5E4F-8B38-
 		js\main.js = js\main.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "products", "products", "{9BCAF34A-FEB4-4AE8-B8EA-6C2FC377FBC3}"
+	ProjectSection(SolutionItems) = preProject
+		images\products\design.png = images\products\design.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +54,6 @@ Global
 		{F8B66D36-E865-465F-8617-815F19E81AB1} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 		{D8A30DFE-AC6A-4EE0-B922-0B505708C6A8} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 		{220F5E4F-8B38-4906-B39F-0A80DA22BFCF} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
+		{9BCAF34A-FEB4-4AE8-B8EA-6C2FC377FBC3} = {F8B66D36-E865-465F-8617-815F19E81AB1}
 	EndGlobalSection
 EndGlobal
