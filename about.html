@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olly About us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <link href="./css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header container">
+        <div class="logos row">
+            <div class="col-xs-2 col-xs-offset-2 olly_man"><img src="./images/olly_man_lq.png" alt="Olly" /></div>
+            <div class="col-xs-8 col-sm-4 logo"><img src="./images/logo.png" alt="Logo" /></div>
+        </div>
+        <div class="menu row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 menu-button" onclick="redirect('index.html');">Главная</div>
+            <div class="col-sm-2 menu-button" onclick="redirect('fast_order.html');">Быстрый заказ</div>
+            <div class="col-sm-2 menu-button" onclick="redirect('catalog.html');">Каталог</div>
+            <div class="col-sm-2 menu-button active">О нас</div>
+            <div class="col-sm-2 menu-button" onclick="redirect('help.html');">Помощь</div>
+        </div>
+    </div>
+    <div class="main container">
+        <div class="main-header row"></div>
+        <div class="wrapper row">
+            <div class="container content">
+                <div class="text-content">
+                    <h2>О нас</h2>
+                    <p>Здесь будет немного текста про нас, но его пока что нет... А так, чтобы видеть, как будет выглядеть много текста, то вот много, никак не связанных, слов: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla tempus malesuada. Pellentesque eu mauris eleifend, molestie sem eu, tempus dui. Etiam at suscipit massa, nec aliquet diam. Aliquam fermentum libero libero, quis luctus tellus rhoncus id. Duis et dui quis dui volutpat maximus. Pellentesque tincidunt, erat ut gravida fermentum, ex ligula maximus dolor, vulputate consequat libero risus ut justo. Donec feugiat dolor et felis auctor mattis. Nam purus nunc, bibendum ut dictum euismod, molestie ac odio.</p>
+                </div>
+            </div>
+            <div class="footer row">
+                <div class="col-sm-4 contacts">
+                    Контакты:<br />
+                    <a href="tel:+37127084601">+371 270 84 601</a><br />
+                    <a href="mailto:ollystudio@gmail.com">ollystudio@gmail.com</a>
+                </div>
+                <div class="col-sm-4 logo">
+                    <img src="./images/logo.png" alt="Logo" /><br />
+                    &copy; Все права защищены
+                </div>
+                <div class="col-sm-4 alt_menu">
+                    <a href="index.html">Главная</a><br />
+                    <a href="fast_order.html">Быстрый заказ</a><br />
+                    <a href="catalog.html">Каталог</a><br />
+                    <a class="active">О нас</a><br />
+                    <a href="help.html">Помощь</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

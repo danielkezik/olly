@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}"
 	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		catalog.html = catalog.html
+		fast_order.html = fast_order.html
+		help.html = help.html
 		index.html = index.html
 	EndProjectSection
 EndProject
@@ -28,6 +32,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D8A30DFE
 		fonts\SupermolotThinItalic.ttf = fonts\SupermolotThinItalic.ttf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{220F5E4F-8B38-4906-B39F-0A80DA22BFCF}"
+	ProjectSection(SolutionItems) = preProject
+		js\main.js = js\main.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +45,6 @@ Global
 		{F61E81C5-3E24-40D2-93A1-5B0C9E1F34AA} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 		{F8B66D36-E865-465F-8617-815F19E81AB1} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 		{D8A30DFE-AC6A-4EE0-B922-0B505708C6A8} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
+		{220F5E4F-8B38-4906-B39F-0A80DA22BFCF} = {C6FFC9F5-4CD1-43D5-8BCF-69936FF60F79}
 	EndGlobalSection
 EndGlobal

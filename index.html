@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
         <link href="./css/main.css" rel="stylesheet" />
     </head>
     <body>
@@ -19,10 +20,10 @@
             <div class="menu row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-2 menu-button active">Главная</div>
-                <div class="col-sm-2 menu-button">Быстрый заказ</div>
-                <div class="col-sm-2 menu-button">Каталог</div>
-                <div class="col-sm-2 menu-button">О нас</div>
-                <div class="col-sm-2 menu-button">Помощь</div>
+                <div class="col-sm-2 menu-button" onclick="redirect('fast_order.html');">Быстрый заказ</div>
+                <div class="col-sm-2 menu-button" onclick="redirect('catalog.html');">Каталог</div>
+                <div class="col-sm-2 menu-button" onclick="redirect('about.html');">О нас</div>
+                <div class="col-sm-2 menu-button" onclick="redirect('help.html');">Помощь</div>
             </div>
         </div>
         <div class="main container">
@@ -35,32 +36,20 @@
                         <p style="text-align:center;">Здесь воплощаются мечты!</p><br />
                         <p>Выбери товар из каталога и мы создадим тебе твою мечту! Или ты можешь придумать себе свой, уникальный товар, перейдя по вкладке:<br />"Быстрый заказ" - "Тип товара" - "Другое".</p>
                         <p style="text-align:center;">Дай нам свою мечту - и мы сделаем её реальной!</p>
-                        <h3>Каталог</h3>
+                        <h3 onclick="redirect('catalog.html');">Каталог</h3>
                     </div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
-                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample</div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample1 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample2 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample3 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample4 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample5 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample6 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample7 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample8 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample9 </div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample10</div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample11</div></div></div>
+                    <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty"/></div><div class="tile-name">Sample12</div></div></div>
                 </div>
                 <div class="footer row">
                     <div class="col-sm-4 contacts">
@@ -73,11 +62,11 @@
                         &copy; Все права защищены
                     </div>
                     <div class="col-sm-4 alt_menu">
-                        <a href="#" class="active">Главная</a><br />
-                        <a href="#">Быстрый заказ</a><br />
-                        <a href="#">Каталог</a><br />
-                        <a href="#">О нас</a><br />
-                        <a href="#">Помощь</a>
+                        <a class="active">Главная</a><br />
+                        <a href="fast_order.html">Быстрый заказ</a><br />
+                        <a href="catalog.html">Каталог</a><br />
+                        <a href="about.html">О нас</a><br />
+                        <a href="help.html">Помощь</a>
                     </div>
                 </div>
             </div>
