@@ -11,3 +11,7 @@
 #popup_body {
     padding: 25px;
 }
+
+#myModal {
+    max-width: 100%;
+}
