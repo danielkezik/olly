@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     text-align:center;
-    margin: 40px 0;
-    font-size:4em;
+    margin: 10px 0 35px 0;
+    font-size:3.5em;
 }
 
 h3 {
@@ -138,6 +138,12 @@ h3 {
     background-color: #c13a2c;/*var(--red-color)*/
 }
 
+@media(min-width: 768px) {
+    .menu .active {
+        transform: translateY(10px);
+    }
+}
+
 .menu-button:hover:not(.active) {
     cursor: pointer;
 }
@@ -151,6 +157,7 @@ h3 {
 .alt_menu > a.active {
     pointer-events: none;
     cursor: default;
+    opacity: .6;
 }
 
 .main {
@@ -227,8 +234,13 @@ h3 {
     font-size: 18px;
 }
 
+.footer {
+    font-weight: bold;
+}
+
 .footer a {
     color: white;
+    font-weight: normal;
     text-decoration: none;
 }
 
@@ -241,7 +253,7 @@ h3 {
     text-align: right;
 }
 
-.footer > .alt_menu a:not(.active):hover {
+.footer a:not(.active):hover {
     text-decoration: underline;
 }
 
