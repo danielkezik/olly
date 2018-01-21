@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{F61E81C5-3E24-40D2-93A1-5B0C9E1F34AA}"
 	ProjectSection(SolutionItems) = preProject
+		css\catalog.css = css\catalog.css
 		css\fast_order.css = css\fast_order.css
 		css\help.css = css\help.css
 		css\main.css = css\main.css

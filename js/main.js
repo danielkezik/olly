@@ -29,6 +29,6 @@ function init_catalog() {
 function popup_content(obj) {
     var el = $(obj)["0"].parentElement.parentElement.parentElement;
     $("#popup_name")[0].innerHTML = val(el, "name");
-    $("#popup_body")[0].innerHTML = "<img src='" + val(el, "image") + "' alt='" + val(el, "image") + "'/>" +
+    $("#popup_body")[0].innerHTML = "<center><img src='" + val(el, "image") + "' alt='" + val(el, "image") + "'/></center>" +
         "<p>" + val(el, "descr") + "</p>";
 }
