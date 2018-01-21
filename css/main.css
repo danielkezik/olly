@@ -281,6 +281,7 @@ body
     font-size: 18px;
     padding: 4px;
     border-radius: 0 0 3px 3px;
+    text-align: center;
 }
 .tile-name a {
     text-decoration: none;
