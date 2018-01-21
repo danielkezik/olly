@@ -30,18 +30,23 @@ body
    margin-right: 15px;
 }*/
 
-h1, h2, h3, h4, h5, h6 {
+.text-content h1,
+.text-content h2,
+.text-content h3,
+.text-content h4,
+.text-content h5,
+.text-content h6 {
     color: #c13a2c;/*var(--red-color)*/
     font-family: Forte_VR;
 }
 
-h2 {
+.text-content h2 {
     text-align:center;
     margin: 10px 0 35px 0;
     font-size:3.5em;
 }
 
-h3 {
+.text-content h3 {
     margin: 20px 0;
     font-size:2.5em;
 }
@@ -276,6 +281,14 @@ h3 {
     font-size: 18px;
     padding: 4px;
     border-radius: 0 0 3px 3px;
+}
+.tile-name a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.tile-name a:hover {
+    text-decoration: underline;
 }
 
 .tile {

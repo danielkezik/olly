@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
     <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/fast_order.css" rel="stylesheet" />
 </head>
 <body>
     <div class="header container">
@@ -34,25 +35,48 @@
                     <h2>Быстрый заказ</h2>
                 </div>
                 <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputFile">File input</label>
-                        <input type="file" id="exampleInputFile">
-                        <p class="help-block">Example block-level help text here.</p>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> Check me out
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <table style="width:100%;">
+                        <tr>
+                            <td>
+                                <div class="form-group">
+                                    <label for="inpEmail">Email:</label>
+                                    <input type="email" class="form-control" id="inpEmail" name="email" placeholder="email@site.com">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="inpName">Полное имя:</label>
+                                    <input type="text" class="form-control" id="inpName" name="full_name" placeholder="Имя Фамилия">
+                                </div> 
+                            </td>
+                            <td rowspan="2">
+                                <div class="checkbox">
+                                    <p class="help-block">Контент:</p>
+                                    <label><input name="content" type="checkbox">Видео</label><br/>
+                                    <label><input name="content" type="checkbox">Звук</label><br/>
+                                    <label><input name="content" type="checkbox">Изображение</label><br/>
+                                    <label><input name="content" type="checkbox">Сайт</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-group">
+                                    <label for="inpFile">Ваше ТЗ (в PDF или в DOCX):</label>
+                                    <input name="task_file" type="file" id="inpFile">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p class="help-block">Заметки:</p>
+                                <textarea name="notes" style="width:100%; height:100px;"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button type="submit" class="btn btn-default">Отправить заказ</button>
+                            </td>
+                        </tr>
+                    </table>
                 </form>
             </div>
             <div class="footer row">

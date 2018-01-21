@@ -11,7 +11,7 @@
     <script src="./js/main.js"></script>
     <link href="./css/main.css" rel="stylesheet" />
 </head>
-<body>
+<body onload="init_catalog();">
     <div class="header container">
         <div class="logos row">
             <div class="col-xs-2 col-xs-offset-2 olly_man"><img src="./images/olly_man_lq.png" alt="Olly" /></div>
@@ -33,30 +33,30 @@
                 <div class="text-content">
                     <h2>Каталог</h2>
                 </div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample1 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample2 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample3 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample4 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample5 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample6 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample7 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample8 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample9 </div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample10</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample11</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample12</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample13</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample14</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample15</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample16</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample17</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample18</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample19</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample20</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample21</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample22</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample23</div></div></div>
-                <div class="tile-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="tile"><div class="tile-content"><img src="images/empty.gif" alt="empty" /></div><div class="tile-name">Sample24</div></div></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample1"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample2"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample3"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample4"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample5"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample6"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample7"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample8"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample9"  descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample10" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample11" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample12" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample13" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample14" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample15" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample16" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample17" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample18" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample19" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample20" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample21" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample22" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample23" descr="This is description."></div>
+                <div class="tile-wrapper" image="images/empty.gif" name="Sample24" descr="This is description."></div>
             </div>
             <div class="footer row">
                 <div class="col-sm-4 contacts">
@@ -79,6 +79,22 @@
                 </div>
             </div>
         </div>
+    </div>    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" id="popup_name"></h4>
+                </div>
+                <div class="modal-body" id="popup_body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Modal end -->
 </body>
 </html>
