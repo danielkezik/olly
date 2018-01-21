@@ -46,13 +46,13 @@ h3 {
     font-size:3.5em;
 }
 
-p {
+.text-content > p {
     text-indent: 30px;
     font-family: SupermolotThinItalic;
     font-size: 1.5em;
 }
 @media(min-width: 768px) {
-    p {
+    .text-content > p {
         margin: 0 3em;
     }
 }
